@@ -1,0 +1,29 @@
+{"ts":"2026-05-28T17:57:15.991Z","cmd":"goto","args":"http://localhost:3001","origin":"http://localhost:3001/","durationMs":15007,"status":"error","hasCookies":false,"mode":"launched","error":"goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"http://localhost:3001/\", waiting until \"domcontentloaded\"\n"}
+{"ts":"2026-05-28T18:00:37.217Z","cmd":"goto","args":"http://localhost:3001","origin":"http://localhost:3001/","durationMs":381,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:00:43.834Z","cmd":"screenshot","args":"/tmp/bankz-full.png","origin":"http://localhost:3001/","durationMs":181,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:00:52.936Z","cmd":"viewport","args":"1440x900","origin":"http://localhost:3001/","durationMs":7,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:00:53.056Z","cmd":"screenshot","args":"/tmp/bankz-hero.png --viewport","origin":"http://localhost:3001/","durationMs":68,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:02.545Z","cmd":"js","args":"window.scrollTo(0, 900)","origin":"http://localhost:3001/","durationMs":4,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:02.667Z","cmd":"screenshot","args":"/tmp/bankz-services.png --viewport","origin":"http://localhost:3001/","durationMs":68,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:14.757Z","cmd":"js","args":"window.scrollTo(0, 1100)","origin":"http://localhost:3001/","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:14.828Z","cmd":"screenshot","args":"/tmp/bankz-s2.png --viewport","origin":"http://localhost:3001/","durationMs":30,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:22.056Z","cmd":"js","args":"window.scrollTo(0, 1800)","origin":"http://localhost:3001/","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:22.149Z","cmd":"screenshot","args":"/tmp/bankz-s3.png --viewport","origin":"http://localhost:3001/","durationMs":40,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:22.199Z","cmd":"js","args":"window.scrollTo(0, 2700)","origin":"http://localhost:3001/","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:22.295Z","cmd":"screenshot","args":"/tmp/bankz-s4.png --viewport","origin":"http://localhost:3001/","durationMs":36,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:22.343Z","cmd":"js","args":"window.scrollTo(0, 3500)","origin":"http://localhost:3001/","durationMs":0,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:22.419Z","cmd":"screenshot","args":"/tmp/bankz-s5.png --viewport","origin":"http://localhost:3001/","durationMs":32,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:22.466Z","cmd":"js","args":"document.body.scrollHeight","origin":"http://localhost:3001/","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:55.222Z","cmd":"js","args":"document.getElementById('contact').scrollIntoView()","origin":"http://localhost:3001/","durationMs":2,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:55.301Z","cmd":"screenshot","args":"/tmp/bankz-contact.png --viewport","origin":"http://localhost:3001/","durationMs":32,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:55.344Z","cmd":"js","args":"document.querySelector('footer').scrollIntoView()","origin":"http://localhost:3001/","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:01:55.418Z","cmd":"screenshot","args":"/tmp/bankz-footer.png --viewport","origin":"http://localhost:3001/","durationMs":32,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:02:11.915Z","cmd":"data","args":"--jsonld --og --meta --twitter","origin":"http://localhost:3001/","durationMs":4,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:02:32.240Z","cmd":"responsive","args":"/tmp/bankz-responsive","origin":"http://localhost:3001/","durationMs":412,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:02:43.229Z","cmd":"viewport","args":"375x812","origin":"http://localhost:3001/","durationMs":7,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:02:43.287Z","cmd":"screenshot","args":"/tmp/bankz-mobile-hero.png --viewport","origin":"http://localhost:3001/","durationMs":14,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:02:54.328Z","cmd":"js","args":"window.scrollTo(0, 0)","origin":"http://localhost:3001/","durationMs":2,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:02:54.405Z","cmd":"screenshot","args":"/tmp/bankz-mobile-top.png --viewport","origin":"http://localhost:3001/","durationMs":29,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:03:08.078Z","cmd":"goto","args":"http://localhost:3001","origin":"http://localhost:3001/","durationMs":100,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:03:08.142Z","cmd":"viewport","args":"375x812","origin":"http://localhost:3001/","durationMs":0,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-28T18:03:08.225Z","cmd":"screenshot","args":"/tmp/bankz-m-hero.png --viewport","origin":"http://localhost:3001/","durationMs":39,"status":"ok","hasCookies":false,"mode":"launched"}

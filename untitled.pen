@@ -1,0 +1,1643 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "VkUoy",
+      "x": 0,
+      "y": 0,
+      "name": "BankZ Design Website",
+      "clip": true,
+      "width": 1440,
+      "fill": "$--bg-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Q4W9C",
+          "name": "Hero Section",
+          "clip": true,
+          "width": "fill_container",
+          "height": 900,
+          "fill": "$--bg-primary",
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "qSrwT",
+              "layoutPosition": "absolute",
+              "x": 370,
+              "y": 150,
+              "opacity": 0.12,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "$--accent",
+                    "position": 0
+                  },
+                  {
+                    "color": "#E8650A00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 700,
+              "height": 600
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "VCyCz",
+              "layoutPosition": "absolute",
+              "x": 60,
+              "y": 60,
+              "opacity": 0.08,
+              "rotation": 45,
+              "fill": "$--accent",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "P1xJ2",
+              "layoutPosition": "absolute",
+              "x": 1356,
+              "y": 80,
+              "opacity": 0.06,
+              "rotation": 45,
+              "fill": "$--accent",
+              "width": 16,
+              "height": 16
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "MnIBC",
+              "layoutPosition": "absolute",
+              "x": 100,
+              "y": 790,
+              "opacity": 0.07,
+              "rotation": 45,
+              "fill": "$--accent",
+              "width": 20,
+              "height": 20
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "Hoilr",
+              "layoutPosition": "absolute",
+              "x": 1310,
+              "y": 760,
+              "opacity": 0.09,
+              "rotation": 45,
+              "fill": "$--accent",
+              "width": 28,
+              "height": 28
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "nhMFB",
+              "layoutPosition": "absolute",
+              "x": 200,
+              "y": 140,
+              "opacity": 0.05,
+              "rotation": 45,
+              "fill": "$--accent",
+              "width": 12,
+              "height": 12
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "b9vt34",
+              "layoutPosition": "absolute",
+              "x": 1240,
+              "y": 160,
+              "opacity": 0.06,
+              "rotation": 45,
+              "fill": "$--accent",
+              "width": 10,
+              "height": 10
+            },
+            {
+              "type": "icon_font",
+              "id": "vJOuR",
+              "x": 696,
+              "y": 241.5,
+              "width": 48,
+              "height": 48,
+              "iconFontName": "camera",
+              "iconFontFamily": "lucide",
+              "fill": "$--text-primary"
+            },
+            {
+              "type": "text",
+              "id": "RpyhR",
+              "x": 525,
+              "y": 313.5,
+              "fill": "$--text-primary",
+              "content": "BankZ Design™",
+              "fontFamily": "$--font-heading",
+              "fontSize": 56,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "aKdnp",
+              "x": 671,
+              "y": 393.5,
+              "fill": "$--accent",
+              "content": "Perfection",
+              "fontFamily": "$--font-body",
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "hbhtW",
+              "x": 442.5,
+              "y": 441.5,
+              "layout": "vertical",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "o3dXMV",
+                  "fill": "$--text-primary",
+                  "content": "If You Need Something",
+                  "fontFamily": "$--font-heading",
+                  "fontSize": 44,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Wz0Nc",
+                  "fill": "$--accent",
+                  "content": "Sold, Marketed & Advertised",
+                  "fontFamily": "$--font-heading",
+                  "fontSize": 44,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "qUfi2",
+              "x": 528.5,
+              "y": 559.5,
+              "fill": "$--text-secondary",
+              "content": "BankZ Design is Your Go-To Sales Agent",
+              "fontFamily": "$--font-body",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "mVOsz",
+              "x": 554,
+              "y": 607.5,
+              "fill": "$--accent",
+              "cornerRadius": "$--radius-lg",
+              "effect": [
+                {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#00000015",
+                  "offset": {
+                    "x": 0,
+                    "y": 2
+                  },
+                  "blur": 4
+                },
+                {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#0000001A",
+                  "offset": {
+                    "x": 0,
+                    "y": 6
+                  },
+                  "blur": 16
+                }
+              ],
+              "padding": [
+                16,
+                40
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QrX0s",
+                  "fill": "$--text-primary",
+                  "content": "Get a Free Quote → 0659521497",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "ellipse",
+              "id": "izEZt",
+              "layoutPosition": "absolute",
+              "x": 370,
+              "y": 200,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.25,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#E8650A",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0A0A0A",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 700,
+              "height": 500
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "B6peAL",
+              "layoutPosition": "absolute",
+              "x": 40,
+              "y": 40,
+              "rotation": 45,
+              "fill": "#E8650A08",
+              "width": 80,
+              "height": 80
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "PgcZX",
+              "layoutPosition": "absolute",
+              "x": 1300,
+              "y": 60,
+              "rotation": 29.999999999999996,
+              "fill": "#E8650A08",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "J5ZSk",
+              "layoutPosition": "absolute",
+              "x": 1340,
+              "y": 750,
+              "rotation": 14.999999999999998,
+              "fill": "#E8650A06",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "uMCqS",
+              "layoutPosition": "absolute",
+              "x": 30,
+              "y": 780,
+              "rotation": 59.99999999999999,
+              "fill": "#E8650A06",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "type": "frame",
+              "id": "T8Qk1",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                60,
+                200
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "AEbo6",
+                  "width": 52,
+                  "height": 52,
+                  "iconFontName": "camera",
+                  "iconFontFamily": "lucide",
+                  "fill": "$--text-primary"
+                },
+                {
+                  "type": "frame",
+                  "id": "qnTtT",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "weG9l",
+                      "fill": "$--text-primary",
+                      "content": "BankZ Design™",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 56,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AtzUr",
+                      "fill": "$--accent",
+                      "content": "Perfection",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ocj0Z",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "D8JMc",
+                      "fill": "$--text-primary",
+                      "content": "If You Need Something",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 46,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vgGFm",
+                      "fill": "$--accent",
+                      "content": "Sold, Marketed & Advertised",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 46,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "NMspE",
+                  "fill": "$--text-secondary",
+                  "content": "BankZ Design is Your Go-To Sales Agent",
+                  "fontFamily": "Inter",
+                  "fontSize": 20
+                },
+                {
+                  "type": "frame",
+                  "id": "J0jnx",
+                  "fill": "$--accent",
+                  "cornerRadius": 12,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#E8650A40",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 24
+                  },
+                  "gap": 12,
+                  "padding": [
+                    18,
+                    48
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XUTnB",
+                      "fill": "$--text-primary",
+                      "content": "Get a Free Quote → 0659521497",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "q2nv0N",
+          "name": "Services Section",
+          "width": "fill_container",
+          "fill": "$--bg-primary",
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "hcUwC",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rYK5l",
+                  "fill": "$--text-primary",
+                  "content": "Our Services",
+                  "fontFamily": "Newsreader",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "ROhOe",
+                  "fill": "$--accent",
+                  "width": 80,
+                  "height": 4
+                },
+                {
+                  "type": "text",
+                  "id": "ERMQX",
+                  "fill": "$--text-secondary",
+                  "content": "We bring your brand to the market with precision and power.",
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "twKN5",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fwAhX",
+                  "width": "fill_container",
+                  "fill": "$--bg-card",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$--border-subtle"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000015",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    48,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XxEDj",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$--accent",
+                      "cornerRadius": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "acgeZ",
+                          "width": 30,
+                          "height": 30,
+                          "iconFontName": "target",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--text-primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bj4Je",
+                      "fill": "$--text-primary",
+                      "content": "Sales",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Gs80f",
+                      "fill": "$--text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We connect your product to the right buyers through strategic outreach, closing deals that drive real revenue growth.",
+                      "lineHeight": 1.65,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ewoIP",
+                  "width": "fill_container",
+                  "fill": "$--bg-card",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$--border-subtle"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000015",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    48,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "J6ZLu1",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$--accent",
+                      "cornerRadius": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "KoR2a",
+                          "width": 30,
+                          "height": 30,
+                          "iconFontName": "trending-up",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--text-primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "gYUrI",
+                      "fill": "$--text-primary",
+                      "content": "Marketing",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AgCsj",
+                      "fill": "$--text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Data-driven campaigns that amplify your brand presence and generate qualified leads across all channels.",
+                      "lineHeight": 1.65,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zwuD3",
+                  "width": "fill_container",
+                  "fill": "$--bg-card",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$--border-subtle"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000015",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    48,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Cr7Dx",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$--accent",
+                      "cornerRadius": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "xkt8A",
+                          "width": 30,
+                          "height": 30,
+                          "iconFontName": "megaphone",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--text-primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "v8oSuY",
+                      "fill": "$--text-primary",
+                      "content": "Advertising",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ceU3l",
+                      "fill": "$--text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Bold, attention-grabbing ads that cut through the noise and put your brand in the spotlight where it belongs.",
+                      "lineHeight": 1.65,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UCw3L",
+          "name": "Guarantee Banner",
+          "width": "fill_container",
+          "fill": "$--accent",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            60,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "Wm8Zv",
+              "fill": "#FFFFFF40",
+              "width": 120,
+              "height": 3
+            },
+            {
+              "type": "frame",
+              "id": "AqykP",
+              "cornerRadius": 4,
+              "stroke": {
+                "align": "inside",
+                "thickness": 2,
+                "fill": "#FFFFFF30"
+              },
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                32,
+                64
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OYa0a",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "vVVCK",
+                      "width": 36,
+                      "height": 36,
+                      "iconFontName": "shield-check",
+                      "iconFontFamily": "lucide",
+                      "fill": "$--text-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j6wGZn",
+                      "fill": "$--text-primary",
+                      "content": "OUR GUARANTEE",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 3
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "g2P8VP",
+                  "fill": "$--text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": 800,
+                  "content": "If We Can’t Sell It — We Give You Your Money Back.",
+                  "lineHeight": 1.3,
+                  "textAlign": "center",
+                  "fontFamily": "Newsreader",
+                  "fontSize": 38,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Tq9me",
+                  "fill": "#FFFFFFCC",
+                  "content": "That’s our promise. No risk, no hassle.",
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "biq5v",
+              "fill": "#FFFFFF40",
+              "width": 120,
+              "height": 3
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "a4d8y",
+          "name": "Why Choose Us Section",
+          "width": "fill_container",
+          "fill": "$--bg-primary",
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "l8OMDb",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qKG52",
+                  "fill": "$--text-primary",
+                  "content": "Why Choose Us",
+                  "fontFamily": "Newsreader",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "qtUEu",
+                  "fill": "$--accent",
+                  "width": 80,
+                  "height": 4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZBEPy",
+              "width": "fill_container",
+              "gap": 32,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PyZLI",
+                  "width": "fill_container",
+                  "fill": "$--bg-card",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$--border-subtle"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000015",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jK9rd",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "$--accent",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "A0vKcl",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "circle-check-big",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--text-primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "lbOjg",
+                      "fill": "$--text-primary",
+                      "content": "Proven Results",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZMERR",
+                      "fill": "$--text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We deliver measurable outcomes that drive your business forward. Our track record speaks for itself.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ew6H8",
+                  "width": "fill_container",
+                  "fill": "$--bg-card",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$--border-subtle"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000015",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qfd3B",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "$--accent",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "g87P0o",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "shield-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--text-primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "q2gHB",
+                      "fill": "$--text-primary",
+                      "content": "Money-Back Guarantee",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HSZuD",
+                      "fill": "$--text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We stand behind our work with a full money-back guarantee. No results, no charge — that's our promise.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ihEBK",
+                  "width": "fill_container",
+                  "fill": "$--bg-card",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$--border-subtle"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000015",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BVgex",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "$--accent",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "MuJHJ",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "users",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--text-primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "R7R4tX",
+                      "fill": "$--text-primary",
+                      "content": "Dedicated Sales Agents",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V9U8dL",
+                      "fill": "$--text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Your brand gets a dedicated team of experienced agents focused solely on growing your sales pipeline.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DN9Ow",
+          "name": "Contact CTA Section",
+          "width": "fill_container",
+          "fill": "$--bg-card",
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "T5GVy",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RIuiO",
+                  "fill": "$--text-primary",
+                  "content": "Get In Touch",
+                  "fontFamily": "Newsreader",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "z8onnJ",
+                  "fill": "$--accent",
+                  "width": 80,
+                  "height": 4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MH0DS",
+              "fill": "$--bg-primary",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 2,
+                "fill": "$--accent"
+              },
+              "gap": 20,
+              "padding": [
+                24,
+                48
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "E15LB",
+                  "width": 56,
+                  "height": 56,
+                  "fill": "$--accent",
+                  "cornerRadius": 28,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "ssdhm",
+                      "width": 26,
+                      "height": 26,
+                      "iconFontName": "phone",
+                      "iconFontFamily": "lucide",
+                      "fill": "$--text-primary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uuclA",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "x4bObu",
+                      "fill": "$--text-secondary",
+                      "content": "Call us for a quote today",
+                      "fontFamily": "Inter",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "E8tg2",
+                      "fill": "$--text-primary",
+                      "content": "0659521497",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j3xryC",
+              "width": 560,
+              "fill": "$--bg-primary",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$--border-subtle"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000020",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 32
+              },
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                48,
+                40
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h1zPGZ",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "e9xMV",
+                      "fill": "$--text-secondary",
+                      "content": "Your Name",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jcD0d",
+                      "width": "fill_container",
+                      "height": 48,
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$--border-subtle"
+                      },
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZecBi",
+                          "fill": "$--text-muted",
+                          "content": "Enter your name",
+                          "fontFamily": "Inter",
+                          "fontSize": 14
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "veWIc",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rYGTd",
+                      "fill": "$--text-secondary",
+                      "content": "Your Email",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "twoZL",
+                      "width": "fill_container",
+                      "height": 48,
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$--border-subtle"
+                      },
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "d5heaG",
+                          "fill": "$--text-muted",
+                          "content": "Enter your email",
+                          "fontFamily": "Inter",
+                          "fontSize": 14
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UPe7J",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SDgGM",
+                      "fill": "$--text-secondary",
+                      "content": "Your Message",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bBjvb",
+                      "width": "fill_container",
+                      "height": 120,
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$--border-subtle"
+                      },
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vAJNc",
+                          "fill": "$--text-muted",
+                          "content": "Type your message here...",
+                          "fontFamily": "Inter",
+                          "fontSize": 14
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ClRl9",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$--accent",
+                  "cornerRadius": 8,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#E8650A30",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 16
+                  },
+                  "gap": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "euGhu",
+                      "fill": "$--text-primary",
+                      "content": "Send Message",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "w4a1Gj",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "$--text-primary"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "J1RQw",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$--bg-primary",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            40,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "FChs7",
+              "fill": "$--border-subtle",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "wsnab",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                24,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HhGGH",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nmCCb",
+                      "width": 32,
+                      "height": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "wTBXP",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "camera",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--text-primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q3ESvI",
+                      "fill": "$--text-primary",
+                      "content": "BankZ Design™",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KQQAI",
+                  "gap": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xiX7s",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "yGGna",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "phone",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GbW0v",
+                          "fill": "$--text-secondary",
+                          "content": "0659521497",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pZl0r",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "ot7ux",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "mail",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SoJvA",
+                          "fill": "$--text-secondary",
+                          "content": "info@bankzdesign.co.za",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "hD5HM",
+                  "fill": "$--border-subtle",
+                  "width": 200,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "ePiuB",
+                  "fill": "$--text-muted",
+                  "content": "© 2026 BankZ Design™. All Rights Reserved.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13
+                },
+                {
+                  "type": "text",
+                  "id": "i7UJN9",
+                  "fill": "$--text-muted",
+                  "content": "Perfection in every campaign.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontStyle": "italic"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "--accent": {
+      "type": "color",
+      "value": "#E8650A"
+    },
+    "--accent-dark": {
+      "type": "color",
+      "value": "#C45508"
+    },
+    "--accent-light": {
+      "type": "color",
+      "value": "#FF7A1A"
+    },
+    "--bg-card": {
+      "type": "color",
+      "value": "#141414"
+    },
+    "--bg-card-hover": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "--bg-primary": {
+      "type": "color",
+      "value": "#0A0A0A"
+    },
+    "--border-subtle": {
+      "type": "color",
+      "value": "#2A2A2A"
+    },
+    "--font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "--font-heading": {
+      "type": "string",
+      "value": "Newsreader"
+    },
+    "--radius": {
+      "type": "number",
+      "value": 8
+    },
+    "--radius-lg": {
+      "type": "number",
+      "value": 12
+    },
+    "--radius-xl": {
+      "type": "number",
+      "value": 16
+    },
+    "--text-muted": {
+      "type": "color",
+      "value": "#6B6B6B"
+    },
+    "--text-primary": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "--text-secondary": {
+      "type": "color",
+      "value": "#A0A0A0"
+    }
+  }
+}
