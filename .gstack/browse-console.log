@@ -2,3 +2,15 @@
 [2026-05-28T18:00:37.346Z] [log] [HMR] connected
 [2026-05-28T18:03:08.083Z] [info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [2026-05-28T18:03:08.140Z] [log] [HMR] connected
+[2026-05-28T18:12:01.469Z] [log] [Fast Refresh] rebuilding
+[2026-05-28T18:12:01.889Z] [log] [Fast Refresh] done in 549ms
+[2026-05-28T18:12:39.214Z] [log] [Fast Refresh] rebuilding
+[2026-05-28T18:12:39.327Z] [log] [Fast Refresh] done in 137ms
+[2026-05-28T18:12:43.859Z] [log] [Fast Refresh] rebuilding
+[2026-05-28T18:12:44.088Z] [log] [Fast Refresh] done in 192ms
+[2026-05-28T18:12:44.328Z] [info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[2026-05-28T18:12:44.372Z] [log] [HMR] connected
+[2026-05-28T18:12:44.936Z] [log] %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[2026-05-28T18:12:44.938Z] [log] %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {route: /, path: /}
+[2026-05-28T18:12:44.939Z] [log] %c[Vercel Web Analytics]%c [view] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:3001/, sv: 0.1.3, sdkn: @vercel/analytics/next, sdkv: 2.0.1, ts: 1779991964937} /_vercel/insights/view
+[2026-05-28T18:12:44.943Z] [log] %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
